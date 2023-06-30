@@ -6,4 +6,4 @@ ami_type      = "add the machine type here (e.g: ami-0989fb15ce71ba39e) for ubun
  
 subnet_id     = "add the subnet id here (e.g: subnet-fb3394a022)"
  
-name          = "add the instance name (e.g: ec2instance-by-TF-2023)"
+name          = "add the instance name here (e.g: ec2instance-by-TF-2023)"
