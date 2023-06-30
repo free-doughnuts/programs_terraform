@@ -15,7 +15,7 @@ this programs is sperated by modules.
 ## How to use the code ?
 1. git clone the project
 2. go into the desired module directory
-3. run the command `terraform apply -var-file="punchvars.tfvars"`
+3. run the commands `terraform init && terraform apply -var-file="punchvars.tfvars"`
 
 ## Conntecing to AWS
 - I recomended to not add `AWS_ACCESS_KEY` and `AWS_SECRET_KEY` to the TFs, this is a BIG NO NO !
