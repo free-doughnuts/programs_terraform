@@ -15,4 +15,4 @@ this programs is sperated by modules.
 ## How to use the code ?
 1. git clone the project
 2. go into the desired module directory
-3. run the command `terraform apply -var-file="varfile.tfvars"`
+3. run the command `terraform apply -var-file="punchvars.tfvars"`
