@@ -15,7 +15,7 @@
 ## How to use the code ?
 1. git clone the project
 2. go into the desired module directory
-3. add your own data to <punchvars.tfvars> file
+3. add your own data to **punchvars.tfvars** file
 4. run the commands `terraform init && terraform apply -var-file="punchvars.tfvars"`
 
 ## Conntecing to AWS
