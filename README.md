@@ -3,7 +3,7 @@
 - this programs is sperated by modules.
 - each module has its own:
 > - main.tf
-> - variables.t 
+> - variables.tf 
 > - punchvars.tfvars
 
 ## Code In-Progress
