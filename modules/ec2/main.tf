@@ -18,7 +18,7 @@ provider "aws" {
 
 // the resource : ubuntu-jammy-22.04-amd64-server-20230516
 
-resource "ec2instance" "micro-instance" {
+resource "ec2instance" "t2micro" {
   instance_type          = var.instance_type
   ami                    = var.ami_type
   subnet_id              = var.subnet_id
