@@ -17,7 +17,11 @@
 1. git clone the program
 2. cd to the desired module directory
 3. add your own data to **punchvars.tfvars** file
-4. run the commands `terraform init && terraform apply -var-file="punchvars.tfvars"`
+4. run the following commands:
+	
+	> **first command:** `terraform init`
+	
+	> **second command:** `terraform apply -var-file="punchvars.tfvars"`
 
 ## Conntecing to AWS
 - I recommended to not add `AWS_ACCESS_KEY` and `AWS_SECRET_KEY` to the TFs, this is a BIG NO NO !
