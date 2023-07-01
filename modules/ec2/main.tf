@@ -16,9 +16,9 @@ provider "aws" {
  region = var.region
 }
 
-// the resource : ubuntu-jammy-22.04-amd64-server-20230516
+// the resource : aws linux machine
 
-resource "ec2instance" "t2micro" {
+resource "aws_instance" "ec2" {
   instance_type          = var.instance_type
   ami                    = var.ami_type
   subnet_id              = var.subnet_id
