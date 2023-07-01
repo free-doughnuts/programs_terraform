@@ -1,11 +1,11 @@
 # About
 - the program sperated by modules.
 - each module has its own:
-> main.tf
+	> main.tf
 
-> variables.tf 
+	> variables.tf 
 
-> punchvars.tfvars
+	> punchvars.tfvars
 
 ## Code In-Progress
 - ec2
