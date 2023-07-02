@@ -1,3 +1,5 @@
+// Terraform Variables Values (ver = 0.0.1)
+
 region        = "add the region here (e.g: us-east-1)"
  
 instance_type = "add the instance type here (e.g: t2.micro)"
