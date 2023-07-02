@@ -14,10 +14,6 @@ variable "subnet_id" {
   type = string
 }
 
-variable "aws_eip" {
-  type = string
-}
-
 variable "name" {
   type = string
 }
