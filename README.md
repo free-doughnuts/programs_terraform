@@ -7,11 +7,11 @@
 
 	> punchvars.tfvars
 
-## Code In-Progress
-- ec2
+	>> the number that attached to "punchvars.tfvars" discribe the version
 
-## Next Code
-- s3-buckets
+## Code In-Progress
+- [x] ec2
+- [x]s3-buckets
 
 ## How to use the code ?
 1. git clone the program
