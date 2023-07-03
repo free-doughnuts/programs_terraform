@@ -7,7 +7,7 @@
 
 	> punchvars.tfvars
 
-	NOTE: the number that attached to "punchvars.tfvars" discribe the version
+- NOTE: the number that attached to "punchvars.tfvars" discribe the version
 
 ## Code In-Progress
 - [x] ec2
