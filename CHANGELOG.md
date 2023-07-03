@@ -14,3 +14,4 @@
 	> attaching version to ec2 module = ver 1.0.0
 
 	> checking module = code works!
+	
