@@ -7,11 +7,12 @@
 
 	> punchvars.tfvars
 
-## Code In-Progress
-- ec2
+- *NOTE-1: the number that attached to "punchvars.tfvars" discribe the version*
+- *NOTE-2: branch "main" will be updated every friday*
 
-## Next Code
-- s3-buckets
+## Code In-Progress
+- [x] ec2
+- [x] s3-bucket
 
 ## How to use the code ?
 1. git clone the program
