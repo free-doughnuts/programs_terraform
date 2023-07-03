@@ -6,10 +6,9 @@
  
  // the resource : s3 bucket
  
- resource "aws_s3_bucket" "dev-tf-bucket-a" {
+ resource "aws_s3_bucket" "first-bucket" {
    acl                = var.acl
    tags = {
      Name             = var.name
    }
  }
- 
