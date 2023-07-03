@@ -7,7 +7,8 @@
 
 	> punchvars.tfvars
 
-- NOTE: the number that attached to "punchvars.tfvars" discribe the version
+- *NOTE-1: the number that attached to "punchvars.tfvars" discribe the version*
+- *NOTE-2: branch "main" will be updated every friday*
 
 ## Code In-Progress
 - [x] ec2
