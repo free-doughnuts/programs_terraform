@@ -1,3 +1,9 @@
+![program_terraform](https://img.shields.io/badge/WORKING%20MACHIINES-Ubuntu%20Linux%20&%20Manjaro%20Linux-purple)
+![program_terraform](https://img.shields.io/badge/PROGRAM_TERRAFORM%20VERSION-1.0.0-purple)
+![program_terraform](https://img.shields.io/badge/CHANGELOG%20STATUS-Added-purple)
+
+
+
 # About
 - the program sperated by modules.
 - each module has its own:
@@ -7,8 +13,8 @@
 
 	> punchvars.tfvars
 
-- *NOTE-1: the number that attached to "punchvars.tfvars" discribe the version*
-- *NOTE-2: branch "main" will be updated every friday*
+- *NOTE-1: every massive change, my **terraform_program** repo will get a new ver*
+- *NOTE-2: branch "main" will updated every friday*
 
 ## Code In-Progress
 - [x] ec2
