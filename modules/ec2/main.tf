@@ -7,7 +7,6 @@ terraform {
       version = "4.13.0"
     }
   }
-
 }
 
 // the provider
