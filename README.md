@@ -1,4 +1,4 @@
-![program_terraform](https://img.shields.io/badge/WORKING%20MACHIINE-UbuntuLinux%20&%20ManjaroLinux-purple)
+![program_terraform](https://img.shields.io/badge/WORKING%20MACHIINES-Ubuntu%20Linux%20&%20Manjaro%20Linux-purple)
 ![program_terraform](https://img.shields.io/badge/PROGRAM_TERRAFORM%20VERSION-1.0.0-purple)
 
 
@@ -11,7 +11,7 @@
 
 	> punchvars.tfvars
 
-- *NOTE-1: every massive change, my terraform_program repo will get new ver*
+- *NOTE-1: every massive change, my **terraform_program** repo will get new ver*
 - *NOTE-2: branch "main" will be updated every friday*
 
 ## Code In-Progress
