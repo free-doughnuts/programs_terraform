@@ -8,4 +8,6 @@
 
 - **30/06/2023** 
 	> repository has been created 
+
+	> first module code - ec2
 	
