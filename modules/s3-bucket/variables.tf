@@ -13,3 +13,7 @@
 variable "versioning" {
   type = string
 }
+
+variable "sse_algorithm" {
+  type = string
+}

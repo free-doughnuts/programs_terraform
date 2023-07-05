@@ -17,7 +17,7 @@ provider "aws" {
  
 // the resource: bucket
  
-resource "aws_s3_bucket" "via-terraform" {
+resource "aws_s3_bucket" "the-bucket" {
   bucket             = var.bucket
   tags = {
     Name             = var.name
@@ -26,9 +26,18 @@ resource "aws_s3_bucket" "via-terraform" {
 
 // the bucket configuration
 
-resource "aws_s3_bucket_versioning" "via-terraform" {
+resource "aws_s3_bucket_versioning" "the-versioning" {
   bucket              = var.bucket
   versioning_configuration {
     status            = var.versioning
+  }
+}
+
+resource "aws_s3_bucket_server_side_encryption_configuration" "the-encryption" {
+  bucket              = var.bucket
+  rule {
+    apply_server_side_encryption_by_default {
+      sse_algorithm   = var.sse_algorithm
+    }
   }
 }
