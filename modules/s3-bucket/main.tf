@@ -15,7 +15,7 @@ provider "aws" {
  region = var.region
 }
  
-// the resource: bucket
+// the resource type
  
 resource "aws_s3_bucket" "the-bucket" {
   bucket             = var.bucket
@@ -24,7 +24,7 @@ resource "aws_s3_bucket" "the-bucket" {
   }
 }
 
-// the bucket configuration
+// the resource properties
 
 resource "aws_s3_bucket_versioning" "the-versioning" {
   bucket              = var.bucket
