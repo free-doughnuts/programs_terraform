@@ -13,7 +13,7 @@
 
 	> punchvars.tfvars
 
-- *NOTE-1: every massive change, my **program_terraform** repo will get a new ver*
+- *NOTE-1: every massive change, my **programs_terraform** repo will get a new ver*
 - *NOTE-2: branch "main" will updated every friday*
 
 ## Code In-Progress
