@@ -1,4 +1,4 @@
-// Terraform Variables Values (ver = 0.0.1)
+// // the properties (don't remove the quotation mark = exmaple: region = "eu-central-1")
 
 region        = "add the region here (e.g: us-east-1)"
  

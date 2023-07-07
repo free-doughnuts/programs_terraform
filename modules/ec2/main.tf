@@ -15,7 +15,7 @@ provider "aws" {
  region = var.region
 }
 
-// the resource : aws linux machine
+// the resource
 
 resource "aws_instance" "ec2" {
   instance_type          = var.instance_type
