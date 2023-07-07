@@ -18,26 +18,26 @@ provider "aws" {
 // the resource type
  
 resource "aws_s3_bucket" "the-bucket" {
-  bucket             = var.bucket
+  bucket             = var.bucket_name
   tags = {
-    Name             = var.name
+    Name             = var.bucket_tag
   }
 }
 
 // the resource properties
 
 resource "aws_s3_bucket_versioning" "the-versioning" {
-  bucket              = var.bucket
+  bucket              = var.bucket_name
   versioning_configuration {
     status            = var.versioning
   }
 }
 
 resource "aws_s3_bucket_server_side_encryption_configuration" "the-encryption" {
-  bucket              = var.bucket
+  bucket              = var.bucket_name
   rule {
     apply_server_side_encryption_by_default {
-      sse_algorithm   = var.sse_algorithm
+      sse_algorithm   = var.sse_encryption_algorithm
     }
   }
 }

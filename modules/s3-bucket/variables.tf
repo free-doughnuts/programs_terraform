@@ -2,11 +2,11 @@
    type = string
  }
 
- variable "bucket" {
+ variable "bucket_name" {
    type = string
  }
 
- variable "name" {
+ variable "bucket_tag" {
    type = string
  }
   
@@ -14,6 +14,6 @@ variable "versioning" {
   type = string
 }
 
-variable "sse_algorithm" {
+variable "sse_encryption_algorithm" {
   type = string
 }
