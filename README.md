@@ -1,7 +1,7 @@
 ![program_terraform](https://img.shields.io/badge/WORKING%20MACHIINES-Ubuntu%20&%20Manjaro-purple)
 ![program_terraform](https://img.shields.io/badge/PROGRAM_TERRAFORM%20VERSION-1.0.0-purple)
 ![program_terraform](https://img.shields.io/badge/CHANGELOG%20STATUS-Added%20+%20Fixed-purple)
-![program_terraform](https://img.shields.io/badge/PROVIDER%20AWS-purple)
+![program_terraform](https://img.shields.io/badge/PROVIDER%20-AWS-purple)
 
 
 # About
