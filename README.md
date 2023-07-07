@@ -1,7 +1,7 @@
-![program_terraform](https://img.shields.io/badge/WORKING%20MACHIINES-Ubuntu%20Linux%20&%20Manjaro%20Linux-purple)
-![program_terraform](https://img.shields.io/badge/PROGRAM_TERRAFORM%20VERSION-1.0.0-purple)
-![program_terraform](https://img.shields.io/badge/CHANGELOG%20STATUS-Added-purple)
-
+![program_terraform](https://img.shields.io/badge/WORKING%20MACHIINES-Ubuntu%20&%20Manjaro-purple)
+![program_terraform](https://img.shields.io/badge/PROGRAM_TERRAFORM%20VERSION-1.0.1-purple)
+![program_terraform](https://img.shields.io/badge/CHANGELOG%20STATUS-Added%20+%20Fixed-purple)
+![program_terraform](https://img.shields.io/badge/PROVIDER%20-AWS-purple)
 
 
 # About
@@ -13,7 +13,7 @@
 
 	> punchvars.tfvars
 
-- *NOTE-1: every massive change, my **terraform_program** repo will get a new ver*
+- *NOTE-1: every massive change, my **programs_terraform** repo will get a new ver*
 - *NOTE-2: branch "main" will updated every friday*
 
 ## Code In-Progress

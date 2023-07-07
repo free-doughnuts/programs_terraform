@@ -12,23 +12,32 @@ terraform {
 // the provider
 
 provider "aws" {
- region = var.region
+ region              = var.region
 }
  
-// the resource: bucket
+// the resource type
  
-resource "aws_s3_bucket" "via-terraform" {
-  bucket             = var.bucket
+resource "aws_s3_bucket" "the-bucket" {
+  bucket             = var.bucket_name
   tags = {
-    Name             = var.name
+    Name             = var.bucket_tag
   }
 }
 
-// the bucket configuration
+// the resource properties
 
-resource "aws_s3_bucket_versioning" "via-terraform" {
-  bucket              = var.bucket
+resource "aws_s3_bucket_versioning" "the-versioning" {
+  bucket              = var.bucket_name
   versioning_configuration {
     status            = var.versioning
+  }
+}
+
+resource "aws_s3_bucket_server_side_encryption_configuration" "the-encryption" {
+  bucket              = var.bucket_name
+  rule {
+    apply_server_side_encryption_by_default {
+      sse_algorithm   = var.sse_encryption_algorithm
+    }
   }
 }
