@@ -2,7 +2,7 @@
 
 region                       = "add the region here (e.g: eu-central-1)"
 
-bucket_name                  = "add the bucket name here (e.g: first-bucket)"
+bucket_name                  = "add the bucket name here (only lower-case) (e.g: first-bucket)"
 
 bucket_tag                   = "add the bucket tag here (e.g: Name = tf-bucket)"
 

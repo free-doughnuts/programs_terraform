@@ -14,10 +14,10 @@ variable "subnet_id" {
   type = string
 }
 
-variable "aws_eip" {
+variable "security_groups_id" {
   type = string
 }
 
-variable "name" {
+variable "machine_name" {
   type = string
 }
