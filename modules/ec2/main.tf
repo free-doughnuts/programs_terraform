@@ -12,7 +12,7 @@ terraform {
 // the provider
 
 provider "aws" {
- region = var.region
+ region                  = var.region
 }
 
 // the properties
