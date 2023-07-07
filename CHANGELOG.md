@@ -1,4 +1,5 @@
 # ChangeLog (status = added + fixed)
+
 *Q.how to read changelog file ?* 
 *A. the correct reading order is from the bottom to top*
 
