@@ -3,6 +3,13 @@
 *Q.how to read changelog file ?* 
 
 *A.the correct reading order is from the bottom to top*
+#
+- **14/07/2023** 
+	> checking ec2 modules = **code works!**
+
+	> adding "Output" return value to ec2 module 
+
+	> adding "EIP" resource to ec2 module
 
 - **07/07/2023** 
 	> checking ec2 & s3-bucket modules = **code works!**

@@ -15,7 +15,7 @@ provider "aws" {
  region                  = var.region
 }
 
-// the properties
+// the resources properties
 
 resource "aws_instance" "ec2" {
   instance_type          = var.instance_type
@@ -25,4 +25,12 @@ resource "aws_instance" "ec2" {
   tags = {
     Name                 = var.machine_name
   }
+}
+
+resource "aws_eip" "elastic_ip_addr" {
+  instance               = aws_instance.ec2.id
+}
+
+output "MACHINE_EIP_IS" {
+  value = aws_eip.elastic_ip_addr.public_ip
 }
