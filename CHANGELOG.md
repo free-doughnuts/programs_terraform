@@ -6,7 +6,7 @@
 #
 
 - **14/07/2023** 
-	> checking ec2 modules = **code works!**
+	> checking ec2 module = **code works!**
 
 	> adding "Output" return value to ec2 module 
 
