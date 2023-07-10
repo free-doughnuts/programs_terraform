@@ -8,7 +8,7 @@
 - **14/07/2023** 
 	> checking ec2 module = **code works!**
 
-	> adding "Output" return value to ec2 module 
+	> adding "Output" return value of "EIP" to ec2 module 
 
 	> adding "EIP" resource to ec2 module
 
