@@ -6,7 +6,7 @@
 #
 
 - **14/07/2023** 
-	> checking ec2 module = **still reviewing!**
+	> checking ec2 module = **code works!**
 
 	> adding "user_data" (web-server script) to ec2 module
 
