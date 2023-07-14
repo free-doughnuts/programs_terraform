@@ -6,9 +6,9 @@
 #
 
 - **14/07/2023** 
-	> checking ec2 module = 
+	> checking ec2 module = **still-checking!**
 
-	> adding "user_data" to ec2 module
+	> adding "user_data" (web-server script) to ec2 module
 
 	> adding output file to ec2 module
 
