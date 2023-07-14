@@ -1,4 +1,4 @@
-# ChangeLog (status = added + fixed)
+# ChangeLog (status = added)
 
 *Q.how to read changelog file ?* 
 
