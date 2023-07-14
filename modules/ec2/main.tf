@@ -22,6 +22,7 @@ resource "aws_instance" "ec2" {
   ami                    = var.ami_type
   subnet_id              = var.subnet_id
   security_groups        = [var.security_groups_id]
+  user_data              = "${file("server-script.sh")}"
   tags = {
     Name                 = var.machine_name
   }
@@ -30,3 +31,4 @@ resource "aws_instance" "ec2" {
 resource "aws_eip" "elastic_ip_addr" {
   instance               = aws_instance.ec2.id
 }
+

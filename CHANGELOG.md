@@ -6,7 +6,9 @@
 #
 
 - **14/07/2023** 
-	> checking ec2 module = **code works!**
+	> checking ec2 module = 
+
+	> adding "user_data" to ec2 module
 
 	> adding output file to ec2 module
 
