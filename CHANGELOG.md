@@ -1,4 +1,4 @@
-# ChangeLog (status = added)
+# ChangeLog (new status = added \ previous status = added + fixed)
 
 *Q.how to read changelog file ?* 
 
