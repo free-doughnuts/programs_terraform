@@ -1,5 +1,6 @@
 #! /bin/bash
 
+# install web-server
 # get admin privileges
 sudo su
 
