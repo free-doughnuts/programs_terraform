@@ -20,7 +20,7 @@ systemctl enable httpd.service
 sleep 10s
 
 # git
-git clone <your_github_repo>  </home/ec2-user/project_directory/>
+git clone <your_github_repo.git>  </home/ec2-user/project_directory/>
 sleep 10s
 
 # change file mode
