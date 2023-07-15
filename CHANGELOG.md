@@ -8,7 +8,9 @@
 - **14/07/2023** 
 	> checking ec2 module = **code works!**
 
-	> adding "user_data" (web-server script) to ec2 module
+	> bash-script: install & run a web-server + git clone a project & execute 2nd bash script
+
+	> adding "user_data" (bash-script) to ec2 module
 
 	> adding output file to ec2 module
 
