@@ -1,4 +1,4 @@
-output "public_ip" {
+output "PublicIP" {
   value = aws_eip.elastic_ip_addr.public_ip
 }
 
