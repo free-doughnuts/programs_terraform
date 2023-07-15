@@ -18,6 +18,10 @@ variable "security_groups_id" {
   type = string
 }
 
+variable "bash_script" {
+  type = string
+}
+
 variable "machine_name" {
   type = string
 }

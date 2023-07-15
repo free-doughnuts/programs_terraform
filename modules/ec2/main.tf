@@ -22,7 +22,7 @@ resource "aws_instance" "ec2" {
   ami                    = var.ami_type
   subnet_id              = var.subnet_id
   security_groups        = [var.security_groups_id]
-  user_data              = "${file("server-script.sh")}"
+  user_data              = "${file(var.bash_script)}"
   tags = {
     Name                 = var.machine_name
   }
