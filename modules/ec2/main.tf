@@ -32,3 +32,6 @@ resource "aws_eip" "elastic_ip_addr" {
   instance               = aws_instance.ec2.id
 }
 
+output "resource_output" {
+  value = resource.aws_instance.Ec2ID
+}
