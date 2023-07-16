@@ -32,4 +32,4 @@ sh yourbashscript.sh
 sleep 10s
 
 # make web-server show your private ip by html file when you browse the ec2 public ip
-echo "<h1>Hello From Terraform</1>" > /var/www/html/index.html
+echo "<h1>Hello From Terraform</h1>" > /var/www/html/index.html
