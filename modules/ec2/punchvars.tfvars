@@ -10,6 +10,6 @@ subnet_id          = "add the subnet id here (e.g: subnet-fb3394a022)"
  
 security_groups_id = "add the sg-id number here (e.g: sg-225f300e1)"
 
-bash_script        = "serverside-script.sh"
+bash_script        = "add the data file here (e.g: serverside-script.sh)"
 
 machine_name       = "add the instance name here (e.g: ec2instance-by-TF-2023)"

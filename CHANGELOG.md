@@ -1,18 +1,26 @@
-# ChangeLog (new status = added \ previous status = added + fixed)
+# ChangeLog (new status = added \ previous status = added)
 
 *Q.how to read changelog file ?* 
 
 *A.the correct reading order is from the bottom to top*
 #
+- **21/07/2023** 
+	> checking ec2 module = **code works!**
+
+	> the 2nd bash-script: installing htop on server
+
+	> adding bashrc alias to "user_data" on ec2 module
+
+	> adding "machine_id" to "output" file on ec2 module
 
 - **14/07/2023** 
 	> checking ec2 module = **code works!**
 
-	> bash-script: install & run a web-server + git clone a project & execute 2nd bash script
+	> user_data: install & run a web-server + git clone a project & execute 2nd bash script
 
 	> adding "user_data" (bash-script) to ec2 module
 
-	> adding output file to ec2 module
+	> adding output file with "public" & "private" ips to ec2 module after running "apply"
 
 	> adding "EIP" resource to ec2 module
 
