@@ -32,3 +32,7 @@ sleep 10
 # make web-server show your private ip by html file
 echo "<h1>Hello From Terraform</h1>" > /var/www/html/index.html
 #echo "Hello From Terraform, Your Private $(hostname -f)" > /var/www/html/index.html
+sleep 5s
+
+# append to bash
+echo "alias ltr='ls -ltrh'"  >>  /home/ec2-user/.bashrc

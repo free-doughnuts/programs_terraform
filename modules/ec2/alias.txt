@@ -1,2 +1,0 @@
-# my aliases
-alias ltr='ls -ltrh'
