@@ -36,3 +36,6 @@ sleep 5s
 
 # append to bash
 echo "alias ltr='ls -ltrh'"  >>  /home/ec2-user/.bashrc
+
+# reload bashrc configs
+source ~/.bashrc
