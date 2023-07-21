@@ -1,26 +1,27 @@
 #! /bin/bash
 
-# take admin privileges
+# take admin priveleges
 sudo su
 
 # update repo & install packages
 yum update -y
-sleep 10s
+sleep 5s
 
+# packages to be installed
 yum install git -y
-sleep 10s
+sleep 5s
 
 yum install httpd.x86_64 -y
-sleep 10s
+sleep 5s
 
 # starting the web-server
 systemctl start httpd.service
 systemctl enable httpd.service
-sleep 10s
+sleep 5s
 
 # git
-git clone -b pre-main https://github.com/free-doughnuts/programs_terraform.git /home/ec2-user/tf/
-sleep 10s
+git clone https://github.com/free-doughnuts/programs_terraform.git /home/ec2-user/tf/
+sleep 5s
 
 # change file mode
 chmod +x /home/ec2-user/tf/modules/ec2/install_package.sh
