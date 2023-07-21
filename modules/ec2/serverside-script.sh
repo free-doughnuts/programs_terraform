@@ -26,7 +26,7 @@ sleep 10s
 chmod +x /home/ec2-user/tf/modules/ec2/install_package.sh
 sleep 5s
 
-sh /home/ec2-user/tf/modules/ec2/packages_install.sh
+sh /home/ec2-user/tf/modules/ec2/install_package.sh
 sleep 10
 
 # make web-server show your private ip by html file
