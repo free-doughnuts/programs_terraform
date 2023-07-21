@@ -1,7 +1,6 @@
 #! /bin/bash
 
-# install web-server
-# get admin privileges
+# take admin privileges
 sudo su
 
 # update repo & install packages
@@ -20,16 +19,16 @@ systemctl enable httpd.service
 sleep 10s
 
 # git
-git clone <your_github_repo.git>  </home/ec2-user/project_directory/>
+git clone -b pre-main https://github.com/free-doughnuts/programs_terraform.git /home/ec2-user/tf/
 sleep 10s
 
 # change file mode
-chmod +x </home/ec2-user/project_directory/yourbashscript.sh>
-sleep 10s
+chmod +x /home/ec2-user/tf/modules/ec2/install_package.sh
+sleep 5s
 
-# execute the bashscript.sh
-sh yourbashscript.sh
-sleep 10s
+sh /home/ec2-user/tf/modules/ec2/packages_install.sh
+sleep 10
 
-# make web-server show your private ip by html file when you browse the ec2 public ip
+# make web-server show your private ip by html file
 echo "<h1>Hello From Terraform</h1>" > /var/www/html/index.html
+#echo "Hello From Terraform, Your Private $(hostname -f)" > /var/www/html/index.html

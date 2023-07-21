@@ -7,5 +7,5 @@ output "PrivateIP" {
 }
 
 output "Ec2ID" {
-  value = aws_instance.ec2.id
+  value = resource.aws_instance.ec2.id
 }

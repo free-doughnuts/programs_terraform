@@ -14,7 +14,8 @@
 	> punchvars.tfvars
 
 - *NOTE-1: every massive change, my **programs_terraform** repo will get a new ver*
-- *NOTE-2: branch "main" will updated every friday*
+- *NOTE-2: comment-out resources that you don't want to use*
+- *NOTE-3: branch "main" will update every friday*
 
 ## Code In-Progress
 - [x] ec2
