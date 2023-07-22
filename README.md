@@ -11,6 +11,8 @@
 
 	> variables.tf 
 
+	> output.tf
+
 	> punchvars.tfvars
 
 - *NOTE-1: every massive change, my **programs_terraform** repo will get a new ver*
