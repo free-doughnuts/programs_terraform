@@ -4,6 +4,7 @@
 
 *A.the correct reading order is from the bottom to top*
 #
+
 - **21/07/2023** 
 	> checking ec2 module = **code works!**
 
