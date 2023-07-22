@@ -21,6 +21,7 @@
 ## Code In-Progress
 - [x] ec2
 - [x] s3-bucket
+- [ ] create an iam account
 
 ## How to use the code ?
 1. git clone the program
