@@ -22,9 +22,9 @@
 
 ## Code In-Progress
 - [x] ec2
-	- [] passing to modules
+	- [ ] passing to modules
 - [x] s3-bucket
-	- [] passing to modules
+	- [ ] passing to modules
 - [ ] iam account
 
 ## How to use the code ?
