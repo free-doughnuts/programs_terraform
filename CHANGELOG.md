@@ -1,9 +1,20 @@
-# ChangeLog (new status = added \ previous status = added)
+# ChangeLog (new status = removed + added \ previous status = added)
 
 *Q.how to read changelog file ?* 
 
 *A.the correct reading order is from the bottom to top*
 #
+
+- **29/07/2023** 
+	> checking code in both services = **code works!**
+
+	> adding backend to service-s3bucket in main.tf file
+
+	> adding backend to service-ec2 in main.tf file 
+
+	> changing the sub-folders name to "service-service_name"
+
+	> changing the main folder name to "services-aws"
 
 - **21/07/2023** 
 	> checking ec2 module = **code works!**
