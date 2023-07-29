@@ -7,6 +7,12 @@ terraform {
       version = "4.13.0"
     }
   }
+
+  backend "s3" {
+    bucket    = "the_real_name_of_the_bucket"
+    key       = "terraform/state-file/service-ec2/terraform.tfstate"
+    region    = "eu-central-1"
+  }
 }
 
 // the provider
@@ -31,4 +37,3 @@ resource "aws_instance" "ec2" {
 resource "aws_eip" "elastic_ip_addr" {
   instance               = aws_instance.ec2.id
 }
-

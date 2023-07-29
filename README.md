@@ -1,12 +1,12 @@
 ![program_terraform](https://img.shields.io/badge/WORKING%20MACHINES-Ubuntu%20&%20Manjaro-purple)
-![program_terraform](https://img.shields.io/badge/PROGRAM_TERRAFORM%20VERSION-1.0.1-purple)
+![program_terraform](https://img.shields.io/badge/PROGRAM_TERRAFORM%20VERSION-1.0.2-purple)
 ![program_terraform](https://img.shields.io/badge/CHANGELOG%20STATUS-Added-purple)
 ![program_terraform](https://img.shields.io/badge/PROVIDER%20-AWS-purple)
 
 
-# About
-- the program sperated by modules.
-- each module has its own:
+# About This Program
+- the program sperated by services.
+- each service has its own:
 	> main.tf
 
 	> variables.tf 
@@ -22,7 +22,9 @@
 
 ## Code In-Progress
 - [x] ec2
+	- [ ] passing to modules
 - [x] s3-bucket
+	- [ ] passing to modules
 - [ ] iam account
 
 ## How to use the code ?
@@ -34,6 +36,13 @@
 	> **first command:** `terraform init`
 	
 	> **second command:** `terraform apply -var-file="punchvars.tfvars"`
+
+## Logs Information
+- On each Terraform apply, terraform creating \ updating .tfstate file
+- This help Terraform to know which resources are under its control and when to update or destroy them
+- The recomendation is to store the .tfstate files in a place where it will not be lost or damaged
+- This is the reason I added s3-bucket as a "backend" in main.tf file of each service
+- This action make sure that .tfstate file will be automaticaly saved in s3-bucket and not in our local pc
 
 ## Conntecing to AWS
 - I recommended to not add `AWS_ACCESS_KEY` and `AWS_SECRET_KEY` to the TFs, this is a BIG NO NO !

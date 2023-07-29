@@ -7,12 +7,18 @@ terraform {
       version = "4.13.0"
     }
   }
+
+  backend "s3" {
+    bucket    = "the_real_name_of_the_bucket"
+    key       = "terraform/state-file/service-s3bucket/terraform.tfstate"
+    region    = "eu-central-1"
+  }
 }
 
 // the provider
 
 provider "aws" {
- region              = var.region
+ region                  = var.region
 }
  
 // the resource type

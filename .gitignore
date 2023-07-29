@@ -5,4 +5,5 @@
  .terraform.lock.hcl
  terraform.tfstate
  terraform.tfstate.backup
- 
+ code_structure.txt
+ ../code_structure.txt
