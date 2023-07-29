@@ -41,8 +41,8 @@
 - On each Terraform apply, terraform creating \ updating .tfstate file
 - This help Terraform to know which resources are under its control and when to update or destroy them
 - The recomendation is to store the .tfstate files in a place where it will not be lost or damaged
-- This is the reason I added s3-bucket as a "backed" in main.tf file of each service
-- This action make sure that .tfstate file will be automaticaly saved in s3 and not in our local pc
+- This is the reason I added s3-bucket as a "backend" in main.tf file of each service
+- This action make sure that .tfstate file will be automaticaly saved in s3-bucket and not in our local pc
 
 ## Conntecing to AWS
 - I recommended to not add `AWS_ACCESS_KEY` and `AWS_SECRET_KEY` to the TFs, this is a BIG NO NO !
