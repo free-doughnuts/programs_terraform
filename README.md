@@ -26,9 +26,9 @@
 
 ## Code In-Progress
 - [x] ec2
-	- [ ] parsing to modules
+	- [ ] parsing out to modules
 - [x] s3-bucket
-	- [ ] parsing to modules
+	- [ ] parsing out to modules
 - [ ] iam account
 
 ## How to use the code ?
