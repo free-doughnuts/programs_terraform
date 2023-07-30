@@ -15,7 +15,7 @@
 
 	> punchvars.tfvars
 
-- *NOTE:*
+- [!NOTE] 
  	> every massive change, my **programs_terraform** repo will get a new ver
 
  	> comment-out resources that you don't want to use
