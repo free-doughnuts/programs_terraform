@@ -17,8 +17,11 @@
 
 > [!NOTE]   
 > every massive change, my **programs_terraform** repo will get a new ver
+
 > comment-out resources that you don't want to use
+
 > branch "main" will update every Friday
+
 > aws working machine = Amazon Linux 2023 AMI
 
 ## Code In-Progress
