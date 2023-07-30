@@ -16,6 +16,7 @@
 	> punchvars.tfvars
 
 > [!NOTE]   
+
  	> every massive change, my **programs_terraform** repo will get a new ver
 
  	> comment-out resources that you don't want to use
@@ -49,5 +50,7 @@
 - This action make sure that .tfstate file will be automaticaly saved in s3-bucket and not in our local pc
 
 ## Conntecing to AWS
+> [!IMPORTANT]  
+
 - I recommended to not add `AWS_ACCESS_KEY` and `AWS_SECRET_KEY` to the TFs, this is a BIG NO NO !
 - The recomendation is to use the Provider Vault to store your ACCESS & SECRET keys.
