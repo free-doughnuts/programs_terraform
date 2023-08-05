@@ -17,41 +17,41 @@
 	> changing the main folder name to "services-aws"
 
 - **21/07/2023** 
-	> checking ec2 module = **code works!**
+	> checking ec2 service = **code works!**
 
 	> on the 2nd bash-script: installing htop on server
 
-	> adding bashrc "ls -ltrh" alias to "user_data" on ec2 module
+	> adding bashrc "ls -ltrh" alias to "user_data" on ec2 service
 
-	> adding "machine_id" to output.tf file on ec2 module after running "apply"
+	> adding "machine_id" to output.tf file on ec2 service after running "apply"
 
 - **14/07/2023** 
-	> checking ec2 module = **code works!**
+	> checking ec2 service = **code works!**
 
 	> user_data: install & run a web-server, install git & clone this project, execute 2nd bash script
 
-	> adding "user_data" (bash-script) to ec2 module
+	> adding "user_data" (serverside-script.sh) to ec2 service
 
-	> adding "public" & "private" ips to output.tf file on ec2 module after running "apply"
+	> adding "public" & "private" ips to output.tf file on ec2 service after running "apply"
 
-	> adding "EIP" resource to ec2 module
+	> adding "EIP" resource to ec2 service
 
 - **07/07/2023** 
-	> checking ec2 & s3-bucket modules = **code works!**
+	> checking ec2 & s3-bucket services = **code works!**
 
-	> adding "Encryption" resource to s3-bucket module
+	> adding "Encryption" resource to s3-bucket service
 
-	> adding "Versioning" resource to s3-bucket module
+	> adding "Versioning" resource to s3-bucket service
 
-	> adding "Security Groups ID" to ec2 module
+	> adding "Security Groups ID" to ec2 service
 
 - **03/07/2023** 
-	> checking ec2 & s3-bucket modules = **code works!**
+	> checking ec2 & s3-bucket services = **code works!**
 
-	> adding second module code - s3-bucket
+	> adding second service code - s3-bucket
 
 
 - **30/06/2023** 
-	> adding first module code - ec2
+	> adding first service code - ec2
 
 	> repository has been created 
