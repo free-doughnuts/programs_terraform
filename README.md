@@ -37,9 +37,15 @@
 3. add your own data to **punchvars.tfvars** file
 4. run the following commands:
 	
-	> **first command:** `terraform init`
+**first command:**
+```
+ terraform init
+```
 	
-	> **second command:** `terraform apply -var-file="punchvars.tfvars"`
+**second command:** 
+```
+ terraform apply -var-file="punchvars.tfvars"
+```
 
 ## Logs Information
 - On each Terraform apply, terraform creating \ updating .tfstate file
