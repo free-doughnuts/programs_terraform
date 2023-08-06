@@ -41,7 +41,7 @@
 ```
  terraform init
 ```
-	
+
 **second command:** 
 ```
  terraform apply -var-file="punchvars.tfvars"
