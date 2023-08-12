@@ -1,9 +1,16 @@
-# ChangeLog (new status = removed + added \ previous status = added)
+# ChangeLog (new status = added \ previous status = removed + added)
 
 *Q.how to read changelog file ?* 
 
 *A.the correct reading order is from the bottom to top*
 #
+
+- **12/08/2023** 
+	> checking code = **code works!**
+
+	> adding root_block_device to service-ec2 properties
+
+	> adding ssh_key_name to service-ec2 properties
 
 - **29/07/2023** 
 	> checking code in both services = **code works!**
