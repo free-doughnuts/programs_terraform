@@ -1,6 +1,6 @@
 ![program_terraform](https://img.shields.io/badge/WORKING%20MACHINES-Ubuntu%20&%20Manjaro-purple)
 ![program_terraform](https://img.shields.io/badge/PROGRAM_TERRAFORM%20VERSION-1.0.2-purple)
-![program_terraform](https://img.shields.io/badge/CHANGELOG%20STATUS-Removed%20+%20Added-purple)
+![program_terraform](https://img.shields.io/badge/CHANGELOG%20STATUS-%20Added-purple)
 ![program_terraform](https://img.shields.io/badge/PROVIDER%20-AWS-purple)
 
 
@@ -20,7 +20,7 @@
 
 	> comment-out resources that you don't want to use
 
-	> branch "main" will update every Friday
+	> branch "main" will update every Weekend
 
 	> aws working machine = Amazon Linux 2023 AMI
 
