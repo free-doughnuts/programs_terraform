@@ -6,7 +6,7 @@ instance_type      = "add the instance type here (e.g: t2.micro)"
  
 ami_type           = "add the machine type here (e.g: ami-0989fb15ce71ba39e) for ubuntu 22.04"
 
-ssh_key_name       = "add the ssh key name here (e.g: ssh-key)"
+ssh_key_name       = "add the ssh key name here (e.g: vpn-ec2-key-2023)"
  
 subnet_id          = "add the subnet id here (e.g: subnet-fb3394a022)"
  
