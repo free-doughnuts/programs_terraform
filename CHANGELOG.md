@@ -8,9 +8,9 @@
 - **12/08/2023** 
 	> checking code = **code works!**
 
-	> adding root_block_device to service-ec2 properties
+	> adding "root_block_device" to service-ec2 properties
 
-	> adding ssh_key_name to service-ec2 properties
+	> adding "ssh_key_name" to service-ec2 properties
 
 - **29/07/2023** 
 	> checking code in both services = **code works!**
