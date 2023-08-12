@@ -20,7 +20,7 @@
 
 	> comment-out resources that you don't want to use
 
-	> branch "main" will update every Friday
+	> branch "main" will update every Weekend
 
 	> aws working machine = Amazon Linux 2023 AMI
 

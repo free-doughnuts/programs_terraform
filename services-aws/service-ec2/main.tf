@@ -26,11 +26,16 @@ provider "aws" {
 resource "aws_instance" "ec2" {
   instance_type          = var.instance_type
   ami                    = var.ami_type
+  key_name               = var.ssh_key_name
   subnet_id              = var.subnet_id
   security_groups        = [var.security_groups_id]
   user_data              = "${file(var.bash_script)}"
   tags = {
     Name                 = var.machine_name
+  }
+  root_block_device {
+    encrypted            = var.ebs_condition
+    volume_size          = var.ebs_size
   }
 }
 
