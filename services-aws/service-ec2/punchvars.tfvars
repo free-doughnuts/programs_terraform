@@ -16,6 +16,6 @@ bash_script        = "add the data file here (e.g: serverside-script.sh)"
 
 machine_name       = "add the instance name here (e.g: ec2instance-by-TF-2023)"
 
-ebs_condition      = "add here the condition (e.g: true)"
+ebs_condition      = "add the condition here (e.g: true)"
 
-ebs_size           = "add here the size of the root volume (e.g: 512)"
+ebs_size           = "add the size of the root volume here (e.g: 512)"
