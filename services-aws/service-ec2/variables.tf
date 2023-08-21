@@ -26,7 +26,7 @@ variable "bash_script" {
   type = string
 }
 
-variable "machine_name" {
+variable "machines_name" {
   type = string
 }
 
