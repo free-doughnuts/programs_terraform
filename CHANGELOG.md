@@ -5,6 +5,11 @@
 *A.the correct reading order is from the bottom to top*
 #
 
+- **25/08/2023** 
+	> checking code = **code works!**
+
+	> adding ability to create more then 1 instance by "count" & "length" parameters to service-ec2 properties 
+
 - **12/08/2023** 
 	> checking code = **code works!**
 
