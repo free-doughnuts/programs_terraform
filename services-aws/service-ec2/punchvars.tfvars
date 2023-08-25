@@ -1,6 +1,6 @@
 // the properties (replace your data with my data)
 
-region                          = "us-east-1"
+region                           = "us-east-1"
  
 instance_type            = "t2.micro"
  
