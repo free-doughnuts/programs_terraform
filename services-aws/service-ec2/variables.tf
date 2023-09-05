@@ -10,6 +10,10 @@ variable "ami_type" {
   type = string
 }
 
+variable "monitoring" {
+  type = bool
+}
+
 variable "subnet_id" {
   type = string
 }

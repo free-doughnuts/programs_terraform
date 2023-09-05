@@ -6,6 +6,8 @@ instance_type      = "t2.micro"
  
 ami_type           = "ami-0989fb15ce71ba39e"
 
+monitoring         = true
+
 ssh_key_name       = "vpn-ec2-key-2023"
  
 subnet_id          = "subnet-fb3394a022"

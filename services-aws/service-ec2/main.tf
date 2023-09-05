@@ -26,6 +26,7 @@ provider "aws" {
 resource "aws_instance" "ec2" {
   instance_type           = var.instance_type
   ami                     = var.ami_type
+  monitoring   					  = var.monitoring
   count                   = length(var.machines_name)
   key_name                = var.ssh_key_name
   subnet_id               = var.subnet_id
