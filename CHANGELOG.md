@@ -5,6 +5,11 @@
 *A.the correct reading order is from the bottom to top*
 #
 
+- **??/??/2023** 
+	> checking code = **code works!**
+
+	> adding "monitoring" parameter to enable enhanced-monitoring to service-ec2 properties
+
 - **25/08/2023** 
 	> checking code = **code works!**
 
