@@ -16,7 +16,7 @@ security_groups_id = "sg-225f300e1"
 
 bash_script        = "serverside-script.sh"
 
-machines_name      = ["machine_1","machine_2", "machine_3"]       # add or remove names to define the number of the instances that Terraform will create
+machines_name      = ["machine_1","machine_2", "machine_3"] # add or remove names to define the number of the instances that Terraform will create
 
 ebs_condition      = true
 
