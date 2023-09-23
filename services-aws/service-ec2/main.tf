@@ -24,6 +24,7 @@ provider "aws" {
 // the resources properties
 
 resource "aws_instance" "ec2" {
+	disable_api_termination = var.protect_termination
   instance_type           = var.instance_type
   ami                     = var.ami_type
   monitoring              = var.monitoring

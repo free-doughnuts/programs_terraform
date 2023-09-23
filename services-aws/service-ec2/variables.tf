@@ -2,6 +2,10 @@ variable "region" {
   type = string
 }
 
+variable "protect_termination" {
+  type = bool
+}
+
 variable "instance_type" {
   type = string
 }
@@ -35,7 +39,7 @@ variable "machines_name" {
 }
 
 variable "ebs_condition" {
-  type = string
+  type = bool
 }
 
 variable "ebs_size" {
