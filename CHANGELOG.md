@@ -1,9 +1,16 @@
-# ChangeLog (new status = added \ previous status = removed + added)
+# ChangeLog (new status = added \ previous status = added)
 
 *Q.how to read changelog file ?* 
 
 *A.the correct reading order is from the bottom to top*
 #
+
+- **23/09/2023** 
+	> checking code = **code works!**
+
+	> adding "disable_api_termination" parameter to protect an accidentally terminating to service-ec2 properties 
+
+	> adding "monitoring" parameter to enable enhanced-monitoring to service-ec2 properties
 
 - **25/08/2023** 
 	> checking code = **code works!**
