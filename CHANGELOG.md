@@ -5,6 +5,11 @@
 *A.the correct reading order is from the bottom to top*
 #
 
+- **??/??/2023** 
+	> checking code = **checking...!**
+
+	> adding "disable_api_stop" parameter to protect an accidentally terminating to service-ec2 properties 
+
 - **23/09/2023** 
 	> checking code = **code works!**
 

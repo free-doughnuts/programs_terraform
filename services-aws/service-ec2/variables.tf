@@ -2,7 +2,11 @@ variable "region" {
   type = string
 }
 
-variable "protect_termination" {
+variable "protect_instance_termination" {
+  type = bool
+}
+
+variable "protect_instance_stop" {
   type = bool
 }
 
