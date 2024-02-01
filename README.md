@@ -51,7 +51,7 @@
 
 > [!TIP]
 > 
->> Logs Information:
+>> ___Logs Information:___
 >
 >> On each Terraform apply, terraform creating \ updating .tfstate file
 > 
@@ -67,7 +67,7 @@
 
 > [!IMPORTANT]
 >
->> About Connecting to AWS:
+>> ___About Connecting to AWS:___
 >
 >
 >> I recommended to not add `AWS_ACCESS_KEY` and `AWS_SECRET_KEY` to the TFs, this is a BIG NO NO !
