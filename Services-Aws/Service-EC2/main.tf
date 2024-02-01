@@ -1,5 +1,4 @@
-// the technology
-
+// The Technology
 terraform {
   required_providers {
     aws                   = {
@@ -15,14 +14,13 @@ terraform {
   }
 }
 
-// the provider
-                
+
+// The Provider               
 provider "aws" {
  region                   = var.region
 }
 
-// the resources properties
-
+// The Properties
 resource "aws_instance" "ec2" {
   disable_api_termination = var.protect_instance_termination
   disable_api_stop 				= var.protect_instance_stop
