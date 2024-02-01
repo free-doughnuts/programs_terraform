@@ -46,6 +46,7 @@
 ```
  terraform apply -var-file="punchvars.tfvars"
 ```
+
 ### 
 
 > [!TIP]
@@ -61,6 +62,7 @@
 >> This is the reason I added s3-bucket as a "backend" in main.tf file of each service
 >
 >> This action make sure that .tfstate file will be automaticaly saved in s3-bucket and not in our local pc
+
 ### 
 
 > [!IMPORTANT]
